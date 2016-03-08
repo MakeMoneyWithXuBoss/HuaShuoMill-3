@@ -1,0 +1,21 @@
+//
+//  XianHuoTong-Prefix.pch
+//  现货通
+//
+//  Created by XuHuiMing on 15/10/23.
+//  Copyright (c) 2015年 BSY. All rights reserved.
+//
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "APIConstant.h"
+    #import "AppConstant.h"
+#endif

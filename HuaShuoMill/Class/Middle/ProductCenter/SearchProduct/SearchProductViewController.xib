@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchProductViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22t-ZC-vHc">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u2k-xX-mt5" customClass="XHMSearchBar">
+                            <rect key="frame" x="8" y="7" width="304" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Wh2-Ey-LSg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="u2k-xX-mt5" secondAttribute="trailing" constant="8" id="FzQ-HB-oLN"/>
+                        <constraint firstItem="u2k-xX-mt5" firstAttribute="centerY" secondItem="22t-ZC-vHc" secondAttribute="centerY" id="M2H-Zy-BOT"/>
+                        <constraint firstItem="u2k-xX-mt5" firstAttribute="leading" secondItem="22t-ZC-vHc" secondAttribute="leading" constant="8" id="P4w-iD-Cyn"/>
+                        <constraint firstAttribute="height" constant="44" id="U2F-MC-gJ7"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0X-vo-MMv">
+                    <rect key="frame" x="8" y="44" width="84" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="EsV-sc-2vh"/>
+                        <constraint firstAttribute="height" constant="30" id="Yjv-Ug-LUx"/>
+                    </constraints>
+                    <state key="normal" title="历史搜索">
+                        <color key="titleColor" red="0.36470588235294116" green="0.36470588235294116" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbJ-tD-GID">
+                    <rect key="frame" x="228" y="44" width="84" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Eoa-I0-OYQ"/>
+                        <constraint firstAttribute="width" constant="84" id="iMd-dk-U2T"/>
+                    </constraints>
+                    <state key="normal" title="清楚历史">
+                        <color key="titleColor" red="0.50196078431372548" green="0.73333333333333328" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="v0X-vo-MMv" firstAttribute="top" secondItem="22t-ZC-vHc" secondAttribute="bottom" id="0mh-vg-Hf4"/>
+                <constraint firstItem="22t-ZC-vHc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="10D-VQ-j7f"/>
+                <constraint firstAttribute="trailing" secondItem="nbJ-tD-GID" secondAttribute="trailing" constant="8" id="2vl-oc-H0W"/>
+                <constraint firstItem="22t-ZC-vHc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8u4-r1-h42"/>
+                <constraint firstAttribute="trailing" secondItem="22t-ZC-vHc" secondAttribute="trailing" id="O5u-Wz-7q3"/>
+                <constraint firstItem="nbJ-tD-GID" firstAttribute="top" secondItem="22t-ZC-vHc" secondAttribute="bottom" id="Q3h-Vc-olB"/>
+                <constraint firstItem="v0X-vo-MMv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="k65-C6-hwp"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

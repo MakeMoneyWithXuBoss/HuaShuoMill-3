@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HotProductViewController">
+            <connections>
+                <outlet property="collectionView" destination="7jf-zy-g7i" id="EDL-7j-4pL"/>
+                <outlet property="pageControl" destination="buk-T2-X6Z" id="u6O-l1-ds2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7jf-zy-g7i">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ofc-Rf-BdI">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="buk-T2-X6Z">
+                    <rect key="frame" x="0.0" y="531" width="320" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="5bV-cj-2H1"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" red="0.20000000000000001" green="0.70196078429999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.43921568630000002" green="0.77647058820000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="buk-T2-X6Z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DcV-eG-jzP"/>
+                <constraint firstAttribute="bottom" secondItem="7jf-zy-g7i" secondAttribute="bottom" id="RMm-69-spd"/>
+                <constraint firstAttribute="trailing" secondItem="buk-T2-X6Z" secondAttribute="trailing" id="U31-cV-zG7"/>
+                <constraint firstAttribute="bottom" secondItem="buk-T2-X6Z" secondAttribute="bottom" id="bsF-jC-y8D"/>
+                <constraint firstItem="7jf-zy-g7i" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gEU-Fy-fth"/>
+                <constraint firstAttribute="trailing" secondItem="7jf-zy-g7i" secondAttribute="trailing" id="gvZ-oW-1gw"/>
+                <constraint firstItem="7jf-zy-g7i" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hac-dj-9cc"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="85" y="315"/>
+        </view>
+    </objects>
+</document>

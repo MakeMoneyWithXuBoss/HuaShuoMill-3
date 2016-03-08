@@ -1,0 +1,208 @@
+{
+    "appid": "1234",
+    "bandID": "1234",
+    "versionName": "1.0.1",
+    "versioncode": "2",
+    "useDynamicTabs": "1",
+    "homeViewStyle": "default",
+    "tabData": [
+                {
+                "TabController": "Collection",
+                "TabDisplayName": "首页",
+                "icon_text": "",
+                "title": "首页",
+                "category_id": "1",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                },
+                {
+                "TabController": "News",
+                "TabDisplayName": "新闻资讯",
+                "icon_text": "",
+                "title": "新闻资讯",
+                "category_id": "2",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                },
+                {
+                "TabController": "Products",
+                "TabDisplayName": "产品中心",
+                "icon_text": "",
+                "title": "产品中心",
+                "category_id": "3",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                },
+                {
+                "TabController": "Contact",
+                "TabDisplayName": "联系我们",
+                "icon_text": "",
+                "title": "联系我们",
+                "category_id": "4",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                },
+                {
+                "TabController": "Links",
+                "TabDisplayName": "链接",
+                "icon_text": "",
+                "title": "链接",
+                "category_id": "6",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                },
+                {
+                "TabController": "About",
+                "TabDisplayName": "关于",
+                "icon_text": "",
+                "title": "关于",
+                "category_id": "7",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                },
+                {
+                "TabController": "Suggest",
+                "TabDisplayName": "意见反馈",
+                "icon_text": "",
+                "title": "意见反馈",
+                "category_id": "8",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                },
+                {
+                "TabController": "Questions",
+                "TabDisplayName": "常见问题",
+                "icon_text": "",
+                "title": "常见问题",
+                "category_id": "9",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                },
+                {
+                "TabController": "Setting",
+                "TabDisplayName": "设置",
+                "icon_text": "",
+                "title": "设置",
+                "category_id": "10",
+                "button_image_url": "",
+                "icon_text_rgba": {
+                "red": "",
+                "green": "",
+                "blue": "",
+                "alpha": ""
+                },
+                "icon_image_url": "",
+                "url": ""
+                }
+                ],
+    "launcherData": {
+        "rows": "1",
+        "columns": "5",
+        "header_image_small": "",
+        "header_image_large": "",
+        "font": "",
+        "player_enabled": "1"
+    },
+    "themeData": {
+        "useDynamicTheme": "0",
+        "headerImage": "",
+        "headerLogo": "",
+        "backgroundImages": {
+            "home_bg": "",
+            "news_bg": "",
+            "comments_bg": ""
+        },
+        "navigationBarColor": {
+            "red": "235",
+            "green": "23",
+            "blue": "6",
+            "alpha": "255"
+        },
+        "navigationItemTitleColor": {
+            "red": "235",
+            "green": "23",
+            "blue": "6",
+            "alpha": "255"
+        },
+        "tableBackgroundColor": {
+            "red": "235",
+            "green": "23",
+            "blue": "6",
+            "alpha": "255"
+        },
+        "globalTextColor": {
+            "red": "235",
+            "green": "23",
+            "blue": "6",
+            "alpha": "255"
+        },
+        "tabBackgroundColor": {
+            "red": "235",
+            "green": "23",
+            "blue": "6",
+            "alpha": "255"
+        }
+    },
+    "photoGridSize": {
+        "width": "104",
+        "height": "104"
+    },
+    "newsListType": "default",
+    "adData": []
+}
